@@ -1,4 +1,4 @@
-# demo blog
+# blog
 
 node.js v20.19.5
 
