@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: GCSG01
+title: GCSG01's Blogs
 subtitle: ''
-description: 'test description'
-keywords:
-author: John Doe
-language: zh
-timezone: ''
+description: 'My Blogs'
+keywords: Blogs, Technology, Hexo, Programming, Life
+author: GCSG01
+language: zh-cn
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -30,6 +30,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+favicon: https://avatars.githubusercontent.com/u/154341303
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -103,4 +105,6 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/GCSG01/blog.git'
+  branch: 'gh-pages'

@@ -1,0 +1,42 @@
+cover:
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: true # can be written in front-matter 'cover: true'
+  background: https://img.z4a.net/images/2025/04/19/1d9709535bae3cd1c66ae1d2e266b1e5.png
+  # logo: https://avatars.githubusercontent.com/u/154341303
+  title: "GCSG01's Blogs"
+  subtitle: 'Welecome to my blog.A place to share my thoughts and experiences.'
+  search: '输入以搜索' # search bar placeholder
+############################### Cover ############################### > end
+site_footer:
+  # layout of footer: [aplayer, social, license, info, copyright]
+  layout: [aplayer, social, license, info, copyright]
+  social:
+    - icon: fas fa-rss
+      url: atom.xml
+    - icon: fas fa-envelope
+      url: mailto:me@xaoxuu.com
+    - icon: fab fa-github
+      url: https://github.com/xaoxuu
+    - icon: fas fa-headphones-alt
+      url: https://music.163.com/#/user/home?id=63035382
+  copyright: '[Copyright © 2017-2021 XXX](/)'
+  # You can add your own property here. (Support markdown, for example: br: '<br>')
+  br: '<br>'
+
+
+############################### Parallax ###############################
+plugins:
+
+  parallax:
+    enable: true
+    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    shuffle: false         # shuffle playlist
+    duration: 10000       # Duration (ms)
+    fade: 1500            # fade duration (ms) (Not more than 1500)
+    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+      - https://img.z4a.net/images/2025/04/19/1d9709535bae3cd1c66ae1d2e266b1e5.png
+################################### Parallax ############################ > end
