@@ -5,7 +5,7 @@ cover:
     home: true
     archive: true
     others: true # can be written in front-matter 'cover: true'
-  background: https://img.z4a.net/images/2025/04/19/1d9709535bae3cd1c66ae1d2e266b1e5.png
+  background: https://github.com/GCSG01/File-Blogs/blob/main/background.png?raw=true
   # logo: https://avatars.githubusercontent.com/u/154341303
   title: "GCSG01's Blogs"
   subtitle: 'Welecome to my blog.A place to share my thoughts and experiences.'
@@ -38,5 +38,5 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://img.z4a.net/images/2025/04/19/1d9709535bae3cd1c66ae1d2e266b1e5.png
+      - https://github.com/GCSG01/File-Blogs/blob/main/background.png?raw=true
 ################################### Parallax ############################ > end
